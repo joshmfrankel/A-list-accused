@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Weinstein Watcher",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*.imdb.com/title/*"
+      ],
+      "css": [
+        "css/styles.css"
+      ],
+      "js": [
+        "js/jquery-3.2.1.min.js",
+        "js/content.js"
+      ]
+    }
+  ]
+}

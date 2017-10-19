@@ -1,0 +1,21 @@
+.watcher {
+  position: fixed;
+  top: 50px;
+  width: 250px;
+  z-index: 9999999999;
+  color: #fff;
+  font-size: 15px;
+  padding: 25px;
+  line-height: 23px;
+  border: 1px solid #222;
+  background: #333;
+  border-top: 6px dashed yellow;
+  box-shadow: 0px 0px 15px #111;
+}
+.watcher h2 {
+  color: #fff !important;
+  font-weight: 700;
+}
+.watcher a {
+  color: yellow !important;
+}
