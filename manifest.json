@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "Weinstein Watcher",
+  "name": "Hollywood Offenders",
   "version": "0.1",
   "content_scripts": [
     {
@@ -15,5 +15,12 @@
         "js/content.js"
       ]
     }
-  ]
+  ],
+  "browser_action": {
+    "default_icon": "icon48.png"
+  },
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
 }

@@ -19,3 +19,17 @@
 .watcher a {
   color: yellow !important;
 }
+.watcher .close-modal {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  border: 1px solid yellow;
+  border-radius: 50px;
+  padding: 0 6px;
+}
+.watcher .close-modal:hover {
+  text-decoration: none;
+  background: #454545;
+  border: 1px solid #aaaa00;
+  color: #aaaa00;
+}
